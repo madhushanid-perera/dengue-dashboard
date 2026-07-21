@@ -6,11 +6,11 @@ An interactive Quarto dashboard for exploring weekly, district-level dengue case
 
 ---
 
-## 📊 About
+##  About
 
 Dengue is an endemic, strongly seasonal disease in Sri Lanka, concentrated in the populous wet-zone districts and punctuated by occasional, statistically distinct epidemic years — most notably 2017 and 2019. This dashboard brings together interactive charts, maps, and tables to surface that story directly from the data, moving from the broadest national picture down to district-level detail.
 
-## 🗂️ Dashboard Pages
+##  Dashboard Pages
 
 | Page | What it shows |
 |---|---|
@@ -26,17 +26,17 @@ Dengue is an endemic, strongly seasonal disease in Sri Lanka, concentrated in th
 - **Cases in Latest Year** — most recent year's total, for context against history
 - **Districts Monitored** — confirms nationwide (26-district) coverage
 
-## 📦 Data Source
+##  Data Source
 
 Built on the [`denguedatahub`](https://cran.r-project.org/package=denguedatahub) R package, developed by Dr. Thiyanga S. Talagala (Department of Statistics, University of Sri Jayewardenepura) with funding from the R Consortium's Infrastructure Steering Committee. For Sri Lanka, the package scrapes and cleans the Weekly Epidemiological Reports published by the Epidemiology Unit, Ministry of Health, Sri Lanka, into a tidy `srilanka_weekly_data` dataset (year, week, start/end date, district, cases).
 
-## 🛠️ Built With
+##  Built With
 
 - [Quarto](https://quarto.org/) dashboard format
 - R — `tidyverse`, `plotly`, `leaflet`, `DT`, `denguedatahub`
 - Bootswatch **cosmo** theme with custom CSS
 
-## 🚀 Running Locally
+##  Running Locally
 
 1. Clone this repo:
    ```bash
@@ -50,7 +50,7 @@ Built on the [`denguedatahub`](https://cran.r-project.org/package=denguedatahub)
    quarto render dengue_dashboard_final.qmd
    ```
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 ├── index.html                    # Rendered, self-contained dashboard (published via GitHub Pages)
@@ -59,7 +59,7 @@ Built on the [`denguedatahub`](https://cran.r-project.org/package=denguedatahub)
 └── Dengue_Dashboard_Report.pdf     # Full documentation & interpretation report
 ```
 
-## 👤 Author
+##  Author
 
 **Madhushani Perera** (W.K.M.D. Perera)
 Department of Statistics, Faculty of Applied Sciences
