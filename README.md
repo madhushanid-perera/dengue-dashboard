@@ -61,7 +61,7 @@ Built on the [`denguedatahub`](https://cran.r-project.org/package=denguedatahub)
 
 ##  Author
 
-**Madhushani Perera** (W.K.M.D. Perera)
+**Madhushani Perera** B.Sc(Hons) in Statistics
 Department of Statistics, Faculty of Applied Sciences
 University of Sri Jayewardenepura
 
